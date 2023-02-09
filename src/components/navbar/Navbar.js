@@ -18,6 +18,7 @@ import {
   Menu as MenuIcon,
   // Twitter,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const StyledToolbar = styled(Toolbar)({
@@ -39,9 +40,9 @@ const Navbar = () => {
   });
   const MenuItems = [
     { Name: "صفحه اصلی", Link: "/" },
-    { Name: "محصولات", Link: "#" },
-    { Name: "بلاگ", Link: "#" },
-    { Name: "تماس با ما", Link: "#" },
+    { Name: "جزئیات محصول", Link: "/details" },
+    { Name: "بلاگ", Link: "/" },
+    { Name: "درباره ما", Link: "/" },
   ];
   const StyledMenu = styled((props) => (
     <Menu
@@ -98,15 +99,14 @@ const Navbar = () => {
           <SearchBox>
             <MenuBox sx={{ display: { xs: 'none', md: "flex" } }}>
               {MenuItems.slice(0).reverse().map((item) => (
-                <MenuItem
-                  href={item.Link}
+                <Typography
                   sx={{
                     cursor: "pointer",
                     fontSize: "1rem",
                   }}
                 >
-                  {item.Name}
-                </MenuItem>
+                  <Link style={{ textDecoration: 'none', color: '#fff' }} to={item.Link}>{item.Name}</Link>
+                </Typography>
               ))}
             </MenuBox>
             {/* <InputBase placeholder="Search ..." sx={{ color: "white" }} /> */}
@@ -143,7 +143,7 @@ const Navbar = () => {
                   textAlign: "center",
                 }}
               >
-                {item.Name}
+                <Link style={{ textDecoration: 'none', color: '#000' }} to={item.Link}>{item.Name}</Link>
               </MenuItem>
             ))}
           </Box>

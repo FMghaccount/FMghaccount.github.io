@@ -16,12 +16,12 @@ function App() {
       <BrowserRouter>
         <RootLayout>
           <Routes>
-            <Route path='/' element={<Navigate replace to='/' />} />
             <Route path="/" element={<Home />} />
-            <Route path="/details" element={<Details />}>
+            <Route path="details" element={<Details />}>
               <Route index element={<Details />} />
               <Route path=":id" element={<Details />} />
             </Route>
+            <Route path='*' element={<Navigate replace to='/' />} />
           </Routes>
         </RootLayout>
       </BrowserRouter>

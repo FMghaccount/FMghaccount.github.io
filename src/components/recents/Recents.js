@@ -15,22 +15,22 @@ const Recents = () => {
       </Typography>
       <Grid container rowSpacing={2} columnSpacing={{ xs: 2, sm: 2, md: 1 }}>
         <Grid item sm={6} xs={12}>
-          <ItemCard cardImage={postImage2} />
+          <ItemCard cardImage={postImage2} alt={'watch&tie'} />
         </Grid>
         <Grid item sm={6} xs={12}>
-          <ItemCard cardImage={postImage1} />
+          <ItemCard cardImage={postImage1} alt={'clothes'} />
         </Grid>
         <Grid item sm={6} xs={12}>
-          <ItemCard cardImage={postImage1} />
+          <ItemCard cardImage={postImage1} alt={'clothes'} />
         </Grid>
         <Grid item sm={6} xs={12}>
-          <ItemCard cardImage={postImage2} />
+          <ItemCard cardImage={postImage2} alt={'watch&tie'} />
         </Grid>
         <Grid item sm={6} xs={12}>
-          <ItemCard cardImage={cardImage} />
+          <ItemCard cardImage={cardImage} alt={'outfit'} />
         </Grid>
         <Grid item sm={6} xs={12}>
-          <ItemCard cardImage={cardImage} />
+          <ItemCard cardImage={cardImage} alt={'outfit'} />
         </Grid>
       </Grid>
     </Box>

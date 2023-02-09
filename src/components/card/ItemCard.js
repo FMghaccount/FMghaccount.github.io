@@ -1,5 +1,7 @@
 // import { Box, CardContent, CardMedia, Link, Typography } from "@mui/material";
-import { Box, Link } from "@mui/material";
+// import { Box, Link } from "@mui/material";
+import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
@@ -13,14 +15,15 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 // import MoreVertIcon from '@mui/icons-material/MoreVert';
 
-const ItemCard = ({ cardImage, number }) => {
+const ItemCard = ({ cardImage, alt }) => {
   const date = new Date();
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
   return (
     <Box>
       <Link
-        href="/details"
-        sx={{ textDecoration: "none" }}
+        to="/details"
+        style={{ textDecoration: 'none', color: '#fff' }}
+      // sx={{ textDecoration: "none" }}
       >
         {/* <CardMedia
           component="img"
@@ -70,7 +73,7 @@ const ItemCard = ({ cardImage, number }) => {
             component="img"
             height="194"
             image={cardImage}
-            alt="Paella dish"
+            alt={alt}
           />
           <CardContent>
             <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.9, textAlign: 'justify' }}>
@@ -87,7 +90,7 @@ const ItemCard = ({ cardImage, number }) => {
           </CardActions>
         </Card>
       </Link>
-    </Box>
+    </Box >
   );
 };
 

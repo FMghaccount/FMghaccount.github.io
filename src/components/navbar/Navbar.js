@@ -62,7 +62,9 @@ const Navbar = () => {
     '& .MuiPaper-root': {
       borderRadius: 10,
       marginTop: theme.spacing(1),
-
+      // position: 'fixed',
+      // top: 0,
+      // zIndex: 9999,
       color:
         theme.palette.mode === 'light' ? 'rgb(55, 65, 81)' : theme.palette.grey[300],
       boxShadow:

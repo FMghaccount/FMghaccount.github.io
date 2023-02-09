@@ -9,7 +9,7 @@ const Hero = () => {
           backgroundImage: `url(${HeroImage})`,
           backgroundRepeat: "no-repeat",
           backgroundColor: "white",
-          backgroundAttachment: "fixed",
+          backgroundAttachment: { xs: "scroll", lg: "fixed" },
           backgroundPosition: "center",
           backgroundSize: "cover",
           height: '100vh',

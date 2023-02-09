@@ -6,6 +6,7 @@ import Details from "./components/details/Details";
 import { CssBaseline } from "@mui/material";
 import { Navigate } from "react-router-dom";
 import RootLayout from "./components/RootLayout";
+import ScrollToTop from "./ScrollToTop";
 // import Container from '@mui/material/Container';
 
 function App() {
@@ -15,14 +16,16 @@ function App() {
       {/* <Navbar /> */}
       <BrowserRouter>
         <RootLayout>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="details" element={<Details />}>
-              <Route index element={<Details />} />
-              <Route path=":id" element={<Details />} />
-            </Route>
-            <Route path='*' element={<Navigate replace to='/' />} />
-          </Routes>
+          <ScrollToTop>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="details" element={<Details />}>
+                <Route index element={<Details />} />
+                <Route path=":id" element={<Details />} />
+              </Route>
+              <Route path='*' element={<Navigate replace to='/' />} />
+            </Routes>
+          </ScrollToTop>
         </RootLayout>
       </BrowserRouter>
       {/* <Footer /> */}

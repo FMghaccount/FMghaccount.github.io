@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/FMghaccount.github.io/static/css/main.41e3565d.css",
-    "main.js": "/FMghaccount.github.io/static/js/main.adb01567.js",
-    "static/media/image2.jpg": "/FMghaccount.github.io/static/media/image2.be1406155bdd4d2c2ee3.jpg",
-    "static/media/men.jpg": "/FMghaccount.github.io/static/media/men.71aaba1872fc02d7ac62.jpg",
-    "static/media/image5.jpg": "/FMghaccount.github.io/static/media/image5.cb3b879c4cb29da39a83.jpg",
-    "static/media/women.jpg": "/FMghaccount.github.io/static/media/women.0540cdcba7afad2d06c1.jpg",
-    "static/media/HeroImage.jpg": "/FMghaccount.github.io/static/media/HeroImage.20dc692ca2f5fca15689.jpg",
-    "static/media/kids.jpg": "/FMghaccount.github.io/static/media/kids.3eb908e23d93b271fe6e.jpg",
-    "static/media/image1.jpg": "/FMghaccount.github.io/static/media/image1.d74147c687f8999e3025.jpg",
-    "static/media/iranyekanwebregularfanum.eot": "/FMghaccount.github.io/static/media/iranyekanwebregularfanum.babee3f4dafb202f0e6c.eot",
-    "static/media/iranyekanwebregularfanum.ttf": "/FMghaccount.github.io/static/media/iranyekanwebregularfanum.db98fec7e82c04693b7d.ttf",
-    "static/media/iranyekanwebregularfanum.woff": "/FMghaccount.github.io/static/media/iranyekanwebregularfanum.f01e9ae5ea918523d370.woff",
-    "static/media/AboutUs.jpg": "/FMghaccount.github.io/static/media/AboutUs.bfc4b07c82f5d818bf9b.jpg",
-    "index.html": "/FMghaccount.github.io/index.html",
-    "main.41e3565d.css.map": "/FMghaccount.github.io/static/css/main.41e3565d.css.map",
-    "main.adb01567.js.map": "/FMghaccount.github.io/static/js/main.adb01567.js.map"
+    "main.css": "/muisample/static/css/main.15a0759e.css",
+    "main.js": "/muisample/static/js/main.152df93f.js",
+    "static/media/image2.jpg": "/muisample/static/media/image2.be1406155bdd4d2c2ee3.jpg",
+    "static/media/men.jpg": "/muisample/static/media/men.71aaba1872fc02d7ac62.jpg",
+    "static/media/image5.jpg": "/muisample/static/media/image5.cb3b879c4cb29da39a83.jpg",
+    "static/media/women.jpg": "/muisample/static/media/women.0540cdcba7afad2d06c1.jpg",
+    "static/media/HeroImage.jpg": "/muisample/static/media/HeroImage.20dc692ca2f5fca15689.jpg",
+    "static/media/kids.jpg": "/muisample/static/media/kids.3eb908e23d93b271fe6e.jpg",
+    "static/media/image1.jpg": "/muisample/static/media/image1.d74147c687f8999e3025.jpg",
+    "static/media/iranyekanwebregularfanum.eot": "/muisample/static/media/iranyekanwebregularfanum.babee3f4dafb202f0e6c.eot",
+    "static/media/iranyekanwebregularfanum.ttf": "/muisample/static/media/iranyekanwebregularfanum.db98fec7e82c04693b7d.ttf",
+    "static/media/iranyekanwebregularfanum.woff": "/muisample/static/media/iranyekanwebregularfanum.f01e9ae5ea918523d370.woff",
+    "static/media/AboutUs.jpg": "/muisample/static/media/AboutUs.bfc4b07c82f5d818bf9b.jpg",
+    "index.html": "/muisample/index.html",
+    "main.15a0759e.css.map": "/muisample/static/css/main.15a0759e.css.map",
+    "main.152df93f.js.map": "/muisample/static/js/main.152df93f.js.map"
   },
   "entrypoints": [
-    "static/css/main.41e3565d.css",
-    "static/js/main.adb01567.js"
+    "static/css/main.15a0759e.css",
+    "static/js/main.152df93f.js"
   ]
 }

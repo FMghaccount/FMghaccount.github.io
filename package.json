@@ -1,7 +1,7 @@
 {
   "name": "material-ui-sample",
   "version": "0.1.0",
-  "homepage": "https://FMghaccount.github.io/FMghaccount.github.io",
+  "homepage": "https://FMghaccount.github.io/muisample",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",

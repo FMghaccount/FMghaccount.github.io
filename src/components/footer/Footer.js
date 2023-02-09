@@ -2,6 +2,7 @@ import { Box, Stack, Typography, styled } from "@mui/material";
 import React from "react";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material/";
 import Container from '@mui/material/Container';
+import { Link } from "react-router-dom";
 const SocialBox = styled(Box)({
   display: "flex",
   gap: 10,
@@ -29,30 +30,30 @@ const Footer = () => {
           </Box>
           <Box flex={1} sx={{ display: 'flex', gap: 1.5, flexDirection: 'column', mt: { xs: 4, md: 0 }, borderBottom: { xs: '1px solid #555555', md: 0 }, pb: 4 }}>
             <Typography color={"white"} align={"center"}>
-              صفحه اصلی
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>صفحه اصلی</Link>
             </Typography>
             <Typography color={"white"} align={"center"}>
-              حریم شخصی
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/details'}>جزئیات محصول</Link>
             </Typography>
             <Typography color={"white"} align={"center"}>
-              درباره ما
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>حریم شخصی</Link>
             </Typography>
             <Typography color={"white"} align={"center"}>
-              سؤالات پر تکرار
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>درباره ما</Link>
             </Typography>
           </Box>
           <Box flex={1} sx={{ display: 'flex', gap: 1.5, flexDirection: 'column', mt: { xs: 4, md: 0 }, borderBottom: { xs: '1px solid #555555', md: 0 }, pb: 4 }}>
             <Typography color={"white"} align={"center"}>
-              دسته بندی ها
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>دسته بندی ها</Link>
             </Typography>
             <Typography color={"white"} variant={"body2"} align={"center"}>
-              بچگانه
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>بچگانه</Link>
             </Typography>
             <Typography color={"white"} variant={"body2"} align={"center"}>
-              مردانه
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>زنانه</Link>
             </Typography>
             <Typography color={"white"} variant={"body2"} align={"center"}>
-              زنانه
+              <Link style={{ textDecoration: 'none', color: '#fff' }} to={'/'}>مردانه</Link>
             </Typography>
           </Box>
           <Box flex={1} sx={{ mt: { xs: 4, md: 0 } }}>

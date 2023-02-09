@@ -8,11 +8,11 @@ const Hero = () => {
         sx={{
           backgroundImage: `url(${HeroImage})`,
           backgroundRepeat: "no-repeat",
-          backgroundColor: "black",
+          backgroundColor: "white",
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
           backgroundSize: "cover",
-          height: 600,
+          height: '100vh',
           width: "100%",
           display: "flex",
           justifyContent: "center",

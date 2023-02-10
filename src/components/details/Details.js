@@ -22,7 +22,7 @@ const Details = () => {
             align="center"
             color={"black"}
             sx={{
-              fontWeight: 900, padding: 10, background: "white", opacity: "0.8", fontSize: { xs: '1.3rem', sm: '1.9rem', md: '2.2rem' }, marginTop: { xs: 18, md: 0 }
+              fontWeight: 900, padding: 5, background: "white", opacity: "0.8", fontSize: { xs: '1.3rem', sm: '1.9rem', md: '2.2rem' }, marginTop: { xs: 24, md: 0 }, lineHeight: 2
             }}
           >
             لورم ایپسوم متن ساختگی

@@ -20,20 +20,20 @@ const Hero = () => {
       >
         <Box
           sx={{
-            width: { xs: "100%", sm: "95%" },
+            width: { xs: "100%", sm: "70%" },
             padding: { xs: 2, sm: 3, md: 20 },
           }}
         >
           <Box sx={{ background: "white", opacity: "0.8", marginTop: { xs: 18, md: 0 } }}>
-            <Typography variant="h6" color="tomato" align="center" pt={8} sx={{ fontWeight: 300, fontFamily: 'iranyekan', direction: 'rtl' }}>
+            <Typography variant="h6" color="tomato" align="center" pt={6} sx={{ fontWeight: 300, fontFamily: 'iranyekan', direction: 'rtl' }}>
               استایل های روز دنیا
             </Typography>
-            <Typography align="center" pb={5} pt={1} sx={{ fontWeight: 300, direction: 'rtl', fontSize: { xs: '1.1rem', sm: '1.7rem', md: '2rem' } }}>
-              با ما شما جذاب تر خواهید شد!
+            <Typography align="center" pb={5} pt={1} sx={{ fontWeight: 'bold', direction: 'rtl', fontSize: { xs: '1.1rem', sm: '1.7rem', md: '2rem' } }}>
+              با ما شما جذاب تر خواهید شد
             </Typography>
-            <Typography align="center" pb={8} sx={{ fontWeight: 300, direction: 'rtl', fontSize: { xs: '1.3rem', sm: '2rem', md: '2.2rem' } }}>
-              لورم ایپسوم متن ساختگی با تولید سادگی
-            </Typography>
+            {/* <Typography align="center" pb={8} sx={{ fontWeight: 300, direction: 'rtl', fontSize: { xs: '1.3rem', sm: '2rem', md: '2.2rem' } }}>
+              لورم ایپسوم متن ساختگی
+            </Typography> */}
             {/* <Typography variant="body1" align="center" pb={8}>
               we love to change your style lorme ipsum
             </Typography> */}
